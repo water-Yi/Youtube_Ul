@@ -1,0 +1,135 @@
+*{
+    margin:0px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    box-sizing: border-box;
+}
+
+.topbar{
+    width:100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 50px;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-top: 8px;
+    cursor: pointer;
+   color:white;
+   /* marginTop으로만 가운데 정렬? */
+}
+
+.fab{
+    color:red;
+}
+
+.video{
+    width:100%;
+    height: 315;
+   
+}
+
+.search{
+    height: 50px;
+    font-size: 24px;
+    margin-right: 10px;
+    margin-top: 8px;
+    cursor: pointer;
+    color :white  
+}
+
+.decriptionbar{
+    width: 100%;
+    margin:10px;
+    
+}
+
+.decription{
+    font-size: 15px;
+}
+.hashtag{
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.viewer{
+    font-size: 12px;
+    color:gray
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: gray;
+    cursor: pointer;
+}
+
+.fa-thumbs-up{
+    color:blue;
+}
+
+/* .borderline{
+    width: 90%;
+    border: 1px solid gray;
+
+} */
+
+hr{
+    width: 97%;
+    color:gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.avatarbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.metadata{
+    display: flex;
+   align-items:center;
+}
+
+.avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;   
+}
+
+.subandid{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (min-width: 769px) {
+    /* .wrapper{
+        width: 50%;
+        display: flex;
+    }
+
+    .decriptionbar .avatarbar{
+        display: block;
+    } */
+
+ }
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
